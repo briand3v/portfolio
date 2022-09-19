@@ -1,0 +1,177 @@
+/**
+ * @license
+ *
+ * Font Family: Ranade
+ * Designed by: Easha Ranade, Indian Type Foundry
+ * URL: https://www.fontshare.com/fonts/ranade
+ * © 2022 Indian Type Foundry
+ *
+ * Font Styles:
+ * Ranade Variable(Variable font)
+ * Ranade Variable Italic(Variable font)
+ * Ranade Thin
+ * Ranade Thin Italic
+ * Ranade Light
+ * Ranade Light Italic
+ * Ranade Regular
+ * Ranade Italic
+ * Ranade Medium
+ * Ranade Medium Italic
+ * Ranade Bold
+ * Ranade Bold Italic
+ *
+*/
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 700.0;
+*
+* available axes:
+
+* 'wght' (range from 100.0 to 700.0)
+
+*/
+
+@font-face {
+    font-family: 'Ranade-Variable';
+    src: url('./assets/fonts/renade/Ranade-Variable.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-Variable.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-Variable.ttf') format('truetype');
+    font-weight: 100 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 700.0;
+*
+* available axes:
+
+* 'wght' (range from 100.0 to 700.0)
+
+*/
+
+@font-face {
+    font-family: 'Ranade-VariableItalic';
+    src: url('./assets/fonts/renade/Ranade-VariableItalic.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-VariableItalic.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-VariableItalic.ttf') format('truetype');
+    font-weight: 100 700;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Ranade-Thin';
+    src: url('./assets/fonts/renade/Ranade-Thin.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-Thin.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Ranade-ThinItalic';
+    src: url('./assets/fonts/renade/Ranade-ThinItalic.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-ThinItalic.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Ranade-Light';
+    src: url('./assets/fonts/renade/Ranade-Light.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-Light.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Ranade-LightItalic';
+    src: url('./assets/fonts/renade/Ranade-LightItalic.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-LightItalic.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Ranade-Regular';
+    src: url('./assets/fonts/renade/Ranade-Regular.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-Regular.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Ranade-Italic';
+    src: url('./assets/fonts/renade/Ranade-Italic.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-Italic.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Ranade-Medium';
+    src: url('./assets/fonts/renade/Ranade-Medium.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-Medium.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Ranade-MediumItalic';
+    src: url('./assets/fonts/renade/Ranade-MediumItalic.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-MediumItalic.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+    font-style: italic;
+}
+
+
+@font-face {
+    font-family: 'Ranade-Bold';
+    src: url('./assets/fonts/renade/Ranade-Bold.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-Bold.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Ranade-BoldItalic';
+    src: url('./assets/fonts/renade/Ranade-BoldItalic.woff2') format('woff2'),
+        url('./assets/fonts/renade/Ranade-BoldItalic.woff') format('woff'),
+        url('./assets/fonts/renade/Ranade-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+}
