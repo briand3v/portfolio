@@ -980,6 +980,7 @@
   .container-section.third-section-container {
     padding: 5%;
     overflow-y: hidden;
+    overflow-x: hidden;
   }
 
   .third-section-container.container-section .container-section-left {
