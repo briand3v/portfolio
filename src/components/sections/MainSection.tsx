@@ -19,7 +19,9 @@ const MainSection: React.FC = () => {
                         UX /UI designer with a lot of motivation and desire to learn. I got in this world, because I like to learn, teach, show and improve all the ideas, creations that are in my mind.
                     </p>
                 </div>
-                <img alt="stains" className="stains-main" src={require('../../assets/mockups/stains.png')} />
+                <picture>
+                    <img alt="stains" className="stains-main" src={require('../../assets/mockups/stains-min.webp')} />
+                </picture>
                 <div className="contact-me-content">
                     <div className="social-media">
                         <a href="https://www.linkedin.com/in/tatianamarcallaconza/" target="_blank">
@@ -41,16 +43,20 @@ const MainSection: React.FC = () => {
                         <span>See more</span>
                     </a>
                 </div>
-                <img alt="stains-2" className="stains-2" src={require('../../assets/mockups/stains2.png')} />
+                <picture>
+                    <img alt="stains-2" className="stains-2" src={require('../../assets/mockups/stains2-min.webp')} />
+                </picture>
             </div>
             <div className="container-section-right">
                 <div className="container-section-right-mockup">
-                    <img className="background-yellow" alt="mockup-main" src={require('../../assets/mockups/background-yellow.png')} height={480} />
-                    <img className="background-avatar" alt="mockup-main" src={require('../../assets/mockups/avatar.png')} height={700} />
-                    <img className="background-figma" alt="mockup-main" src={require('../../assets/mockups/icon-figma.png')} height={100} />
-                    <img className="background-adobe" alt="mockup-main" src={require('../../assets/mockups/icon-adobe.png')} height={55} />
-                    <img className="background-sketch" alt="mockup-main" src={require('../../assets/mockups/icon-sketch.png')} height={65} />
-                    <img className="background-vsc" alt="mockup-main" src={require('../../assets/mockups/icon-vsc.png')} height={50} />
+                    <picture>
+                        <img alt="web-p-1" src={require('../../assets/mockups/background-yellow.webp')} height={480} />
+                    </picture>
+                    <picture><img alt="web-p-2" className="background-avatar" src={require('../../assets/mockups/avatar.webp')} height={700} /></picture>
+                    <picture><img alt="web-p-3" className="background-figma" src={require('../../assets/mockups/icon-figma.webp')} height={100} /></picture>
+                    <picture><img alt="web-p-4" className="background-adobe" src={require('../../assets/mockups/icon-adobe.webp')} height={55} /></picture>
+                    <picture><img alt="web-p-5" className="background-sketch" src={require('../../assets/mockups/icon-sketch.webp')} height={65} /></picture>
+                    <picture><img alt="web-p-6" className="background-vsc" src={require('../../assets/mockups/icon-vsc.webp')} height={50} /></picture>
                     <span className="me-quote">
                         "I love to show my<br></br>creativity to others."
                     </span>

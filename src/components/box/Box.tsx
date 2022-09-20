@@ -33,7 +33,7 @@ const Box: React.FC<BoxProps> = ({ mockup, revert }) => {
         } else {
             // control.start('hidden')
         }
-    }, [control, inView])
+    }, [control, inView, revert])
 
     return (
         <motion.div
@@ -43,7 +43,9 @@ const Box: React.FC<BoxProps> = ({ mockup, revert }) => {
             animate={control}
             initial={initial}
         >
-            <img alt={mockup} src={require(`../../assets/mockups/${mockup}.png`)} width={550} />
+            <picture>
+                <img alt={mockup} src={require(`../../assets/mockups/${mockup}.webp`)} width={550} />
+            </picture>
         </motion.div>
     )
 }

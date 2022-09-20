@@ -18,9 +18,9 @@ const ThirdSection: React.FC<ThirdSectionProps> = ({ className }) => {
     }, [hash, currentHash])
     return (
         <div ref={mainRef} className={"container-section " + (className ?? '')}>
-            <img alt="stains-3" className="stains-3" src={require('../../assets/mockups/stains2.png')} />
-            <img alt="stains-4" className="stains-4" src={require('../../assets/mockups/stains2.png')} />
-            <img alt="stains-5" className="stains-5" src={require('../../assets/mockups/stains2.png')} />
+            <picture><img alt="stains-3" className="stains-3" src={require('../../assets/mockups/stains2-min.webp')} /></picture>
+            <picture><img alt="stains-4" className="stains-4" src={require('../../assets/mockups/stains2-min.webp')} /></picture>
+            <picture><img alt="stains-5" className="stains-5" src={require('../../assets/mockups/stains2-min.webp')} /></picture>
             <div className="container-section-left">
                 <div className="container-section-left-title">
                     <span>My work</span>

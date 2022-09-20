@@ -30,9 +30,8 @@ const SecondSection: React.FC<SecondSectionProps> = ({ className }) => {
             </div>
             <div className="container-section-rows">
                 <div className="container-section-left">
-                    <img alt="mockup-main" className="about-me-mockup" src={require('../../assets/mockups/Mockup-fondofoto.png')} width={460} />
-                    <img alt="mockup-main" className="me-picture" src={require('../../assets/mockups/iron-hack-me.png')} width={350} />
-                    {/* <img className="background-laptop" alt="mockup-main" src={require('../../assets/mockups/mockup-macBook.png')} height={230} /> */}
+                    <picture><img alt="mockup-main" className="about-me-mockup" src={require('../../assets/mockups/Mockup-fondofoto.webp')} width={460} /></picture>
+                    <picture><img alt="mockup-main" className="me-picture" src={require('../../assets/mockups/iron-hack-me.webp')} width={350} /></picture>
                 </div>
                 <div className="container-section-right">
                     <div className="container-section-right-about-me-content">

@@ -240,7 +240,7 @@
 
 .main-section-container.container-section {
   /* height: 100vh; */
-  padding-top: 0%;
+  padding-top: 4%;
 }
 
 .main-section-container.container-section .container-section-left .container-section-left-title .regards {
@@ -364,7 +364,7 @@
 .second-section-container.container-section .container-section-rows .container-section-right .container-section-right-about-me-content .container-section-right-about-me {
   position: relative;
   width: 85%;
-  background-image: url('./assets/mockups/mockup-about-me.png');
+  background-image: url('./assets/mockups/mockup-about-me.webp');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 15px;
@@ -803,7 +803,7 @@
   }
 
   .container-section.main-section-container .container-section-left {
-    padding-top: 40px;
+    padding-top: 0px;
   }
 
   .container-section.main-section-container .container-section-right {
@@ -852,7 +852,7 @@
   }
 
   .container-section.main-section-container .container-section-left .container-section-left-description p {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .container-section.main-section-container .container-section-left .contact-me-content {
@@ -860,6 +860,7 @@
     display: flex;
     flex-direction: column;
     z-index: 100;
+    margin-top: 20px;
   }
   .container-section.main-section-container .container-section-left .contact-me-content .social-media {
     display: flex;
@@ -968,7 +969,12 @@
 
   .second-section-container.container-section .container-section-rows .container-section-right .container-section-right-dropdowns .dropdown-container {
     margin: 0px;
+    margin-top: 20px;
     width: 100%;
+  }
+
+  .second-section-container.container-section .container-section-rows .container-section-right .container-section-right-dropdowns .dropdown-container:first-child {
+    margin-top: 0px;
   }
 
   .container-section.third-section-container {
@@ -1006,5 +1012,6 @@
 
   .third-section-container.container-section .container-section-left .container-section-left-body .project-section-container .project-section-right .project-section-right-title-project-description p {
     text-align: start;
+    font-size: 15px;
   }
 }
