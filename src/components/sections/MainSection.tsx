@@ -35,7 +35,7 @@ const MainSection: React.FC = () => {
                         </a>
                     </div>
                     <div className="resume">
-                        <span><a href={require('../../assets/docs/CV-Tatiana-Marcalla.pdf')} target='_blank'>Download CV</a></span>
+                        <span><a href={require('../../assets/docs/Tatiana-Marcalla-CV.pdf')} target='_blank'>Download CV</a></span>
                     </div>
                 </div>
                 <div className="see-more-button">
